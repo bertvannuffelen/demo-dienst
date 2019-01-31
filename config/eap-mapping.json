@@ -10,7 +10,7 @@
     "contributors-file": "stakeholders.csv",
     "contributors-column": "Dienst",
     "config" : "config/config-voc.json",
-    "site": "site-skeleton"
+    "site": "site-skeleton/dienst"
   },
   {
     "name": "dienstencataloog",
@@ -24,6 +24,20 @@
     "contributors-file": "stakeholders.csv",
     "contributors-column": "Dienst",
     "config" : "config/config-ap.json",
-    "site": "site-skeleton"
+    "site": "site-skeleton/dienstencataloog"
+  },
+   {
+    "name": "dienst-transactiemodel",
+    "type": "ap",
+    "eap": "OSLO-Dienst-Transactiemodel-AP.eap",
+    "diagram": "OSLO-Dienst-Transactiemodel",
+    "template": "dienst-transactiemodel-ap.j2",
+    "title": "Dienst Transactiemodel",
+	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "12-12-2018",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "Transactie",
+    "config" : "config/config-ap.json",
+    "site": "site-skeleton/dienst-transactiemodel"
   }
  ]
