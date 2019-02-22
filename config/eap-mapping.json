@@ -2,7 +2,7 @@
 {
     "name": "dienst",
     "type": "voc",
-    "eap": "OSLO-Vocabularium.eap",
+    "eap": "OSLO-Dienst-VOC.eap",
     "diagram": "OSLO-Dienst",
     "template": "dienst-voc.j2",
 	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
