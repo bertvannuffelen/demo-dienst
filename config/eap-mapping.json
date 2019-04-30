@@ -5,12 +5,15 @@
     "eap": "OSLO-Dienst-VOC.eap",
     "diagram": "OSLO-Dienst",
     "template": "dienst-voc.j2",
-	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
-    "publication-date": "12-12-2018",
+	"title": "Dienst",
+	"publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "07-02-2019",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "Dienst",
     "config" : "config/config-voc.json",
-    "site": "site-skeleton/dienst"
+    "site": "site-skeleton/dienst",
+	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
     "name": "dienstencataloog",
@@ -19,12 +22,14 @@
     "diagram": "OSLO-Dienstencataloog",
     "template": "dienstencataloog-ap.j2",
     "title": "Dienstencataloog",
-	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
-    "publication-date": "12-12-2018",
+	"publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "niet-bepaald",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "Dienst",
     "config" : "config/config-ap.json",
-    "site": "site-skeleton/dienstencataloog"
+    "site": "site-skeleton/dienstencataloog",
+	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
    {
     "name": "dienst-transactiemodel",
@@ -33,12 +38,14 @@
     "diagram": "OSLO-Dienst-Transactiemodel",
     "template": "dienst-transactiemodel-ap.j2",
     "title": "Dienst Transactiemodel",
-	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
-    "publication-date": "12-12-2018",
+	"publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "07-02-2018",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "Transactie",
     "config" : "config/config-ap.json",
-    "site": "site-skeleton/dienst-transactiemodel"
+    "site": "site-skeleton/dienst-transactiemodel",
+	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
    {
     "name": "transactie",
@@ -46,12 +53,15 @@
     "eap": "OSLO-Transactie-VOC.eap",
     "diagram": "OSLO-Transactie",
     "template": "dienst-transactie-voc.j2",
-    "publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
-    "publication-date": "12-12-2018",
+	"title": "Transactie",
+    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "07-02-2018",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "Transactie",
     "config" : "config/config-voc.json",
-    "site": "site-skeleton/transactie"
+    "site": "site-skeleton/transactie",
+	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   }
 
  ]
